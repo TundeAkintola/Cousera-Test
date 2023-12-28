@@ -1,0 +1,96 @@
+     * {
+         box-sizing: border-box;
+     }
+
+     body {
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+
+     h1 {
+         text-align: center;
+     }
+
+     .section {
+         margin: 10px;
+         background-color: rgb(55, 107, 67);
+         position: relative;
+         border: 2px solid;
+         text-align: justify;
+     }
+
+     h4 {
+         padding: 5px 20px;
+         border: 2px solid black;
+         float: right;
+         clear: right;
+         position: absolute;
+         right: 0px;
+         top: -22px;
+
+     }
+
+     .first-title {
+         background-color: aqua;
+         color: white;
+     }
+
+     .second-title {
+         background-color: rgb(75, 58, 3);
+         color: white;
+     }
+
+     .third-title {
+         background-color: rgb(54, 6, 94);
+         color: white;
+     }
+
+     p {
+         padding: 25px;
+     }
+
+     @media (min-width:991px) {
+         .main {
+             text-align: center;
+         }
+
+         .section {
+             display: inline-block;
+             text-align: justify;
+         }
+
+         .first {
+             width: 30%;
+         }
+
+         .second {
+             width: 30%;
+         }
+
+         .third {
+             width: 30%;
+         }
+     }
+
+     @media (min-width:768px) and (max-width:991px) {
+         .main {
+             text-align: center;
+         }
+
+         .section {
+             display: inline-block;
+             text-align: justify;
+         }
+
+         .first {
+             width: 44%;
+         }
+
+         .second {
+             width: 44%;
+         }
+
+         .third {
+             width: 91%;
+         }
+
+     }
